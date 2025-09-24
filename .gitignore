@@ -1,0 +1,7 @@
+node_modules
+dist
+.env
+.pnpm-debug.log
+.yarn/cache
+.next
+postgres_data

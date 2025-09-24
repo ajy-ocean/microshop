@@ -1,0 +1,17 @@
+{
+    "name": "microservices-backend",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "start:products": "yarn workspace products-service start:dev",
+        "start:orders": "yarn workspace orders-service start:dev",
+        "start:gateway": "yarn workspace api-gateway start:dev",
+        "start:frontend": "yarn workspace frontend dev"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0",
+        "@types/node": "^18.0.0"
+    }
+}
